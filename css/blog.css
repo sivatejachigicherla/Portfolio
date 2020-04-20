@@ -143,3 +143,7 @@ blockquote {
   border: none;
   border-left: 4px solid #b8a07e;
 }
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
