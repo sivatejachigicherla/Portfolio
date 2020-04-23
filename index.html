@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <head>
   <!-- meta -->
@@ -39,6 +42,9 @@
 </head>
 
 <body>
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
 
   <!-- start section navbar -->
   <nav id="main-nav">
@@ -454,6 +460,12 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jauery.min.js"></script>
+  <script>
+    setTimeout(function(){
+      $('#preloader').fadeToggle();
+    },2500);
+  </script>
 
 </body>
 
